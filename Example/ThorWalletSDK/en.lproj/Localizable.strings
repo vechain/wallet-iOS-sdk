@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  ThorWalletSDK
+
+  Created by VeChain on 2019/5/22.
+  Copyright © 2019 VeChain. All rights reserved.
+*/
+
+
+"host_select_txt" = "Select network";
+
+"item0" = "Main Node";
+"item1" = "Test Node";
+"item2" = "Add custom Node";
+
+"version" = "Demo Version：(%@)";
+"input_empty" = "The input cannot be blank";
+"mnemonic_not_available" = "Mnemonic Words is not available";
+"wait" = "Waiting...";
+"Check_right" = "Check the input is correct";
+
+"modify_password_new_error" = "New password error";
+"modify_password_success" = "Modification successful!";
+"modify_password_fail" = "Modification failed!";

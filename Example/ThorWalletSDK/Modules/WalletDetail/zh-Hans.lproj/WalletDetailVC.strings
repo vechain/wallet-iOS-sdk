@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "VET"; ObjectID = "OId-fF-Rrq"; */
+"OId-fF-Rrq.text" = "VET";
+
+/* Class = "UILabel"; text = "0x"; ObjectID = "YOM-H8-Gmd"; */
+"YOM-H8-Gmd.text" = "0x";
+
+/* Class = "UILabel"; text = "VTHO"; ObjectID = "cCo-dd-cgx"; */
+"cCo-dd-cgx.text" = "VTHO";
+
+/* Class = "UILabel"; text = "List of assets"; ObjectID = "eNC-a5-6lm"; */
+"eNC-a5-6lm.text" = "资产列表";
+
+/* Class = "UILabel"; text = "Wallet address："; ObjectID = "iiE-IY-zs2"; */
+"iiE-IY-zs2.text" = "钱包地址：";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "lXo-Ds-8fp"; */
+"lXo-Ds-8fp.text" = "0.00";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "pEa-rh-5lp"; */
+"pEa-rh-5lp.text" = "0.00";

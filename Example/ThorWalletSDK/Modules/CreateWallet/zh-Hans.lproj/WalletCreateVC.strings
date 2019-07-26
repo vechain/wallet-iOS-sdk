@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Create Wallet"; ObjectID = "Jgi-0H-ieP"; */
+"Jgi-0H-ieP.normalTitle" = "创建钱包";
+
+/* Class = "UILabel"; text = "address"; ObjectID = "N8j-hW-Gcl"; */
+"N8j-hW-Gcl.text" = "地址";
+
+/* Class = "UILabel"; text = "keystore"; ObjectID = "Wk0-g4-RFy"; */
+"Wk0-g4-RFy.text" = "keystore";
+
+/* Class = "UITextField"; placeholder = "Please enter your password"; ObjectID = "sx5-0s-OjB"; */
+"sx5-0s-OjB.placeholder" = "请设置钱包密码";
+
+/* Class = "UILabel"; text = "mnemonic"; ObjectID = "yWZ-Vd-Pgg"; */
+"yWZ-Vd-Pgg.text" = "助记词";

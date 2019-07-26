@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThorViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3A-M0-CGb">
+                    <rect key="frame" x="8" y="208" width="304" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="eJ8-BU-nhQ"/>
+                    </constraints>
+                    <state key="normal" title="Create wallet">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCreateOrImportWalletEvent:" destination="-1" eventType="touchUpInside" id="c8m-7S-6Rd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrB-wa-S63">
+                    <rect key="frame" x="8" y="285" width="304" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Import wallet">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCreateOrImportWalletEvent:" destination="-1" eventType="touchUpInside" id="aqw-dJ-1XO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QrB-wa-S63" firstAttribute="leading" secondItem="d3A-M0-CGb" secondAttribute="leading" id="D3F-J5-Nns"/>
+                <constraint firstItem="d3A-M0-CGb" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="8" id="De0-99-OtQ"/>
+                <constraint firstItem="QrB-wa-S63" firstAttribute="height" secondItem="d3A-M0-CGb" secondAttribute="height" id="Hgh-d7-3Fs"/>
+                <constraint firstItem="QrB-wa-S63" firstAttribute="top" secondItem="d3A-M0-CGb" secondAttribute="bottom" constant="27" id="LuB-ly-u82"/>
+                <constraint firstItem="d3A-M0-CGb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="N7t-eu-zHa"/>
+                <constraint firstItem="QrB-wa-S63" firstAttribute="trailing" secondItem="d3A-M0-CGb" secondAttribute="trailing" id="ZI5-m1-Ofz"/>
+                <constraint firstItem="d3A-M0-CGb" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="188" id="j0a-8e-lIU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

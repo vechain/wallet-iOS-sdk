@@ -1,0 +1,6 @@
+framework module ThorWalletSDK {
+  umbrella header "ThorWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

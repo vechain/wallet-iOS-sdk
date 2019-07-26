@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "534-sa-her"; */
+"534-sa-her.placeholder" = "请输入转账金额";
+
+/* Class = "UILabel"; text = "Amount:"; ObjectID = "AqB-TW-gGW"; */
+"AqB-TW-gGW.text" = "转账金额";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "EJG-yY-D6p"; */
+"EJG-yY-D6p.text" = "0.00";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "H4K-qD-Yml"; */
+"H4K-qD-Yml.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "VET"; ObjectID = "f7b-tm-NAd"; */
+"f7b-tm-NAd.text" = "VET";
+
+/* Class = "UILabel"; text = "Receiver's Address"; ObjectID = "nWu-bx-IWz"; */
+"nWu-bx-IWz.text" = "收款人地址";
+
+/* Class = "UILabel"; text = "Balance："; ObjectID = "zae-lf-mHl"; */
+"zae-lf-mHl.text" = "余额：";

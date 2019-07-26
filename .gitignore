@@ -61,3 +61,6 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Example/Pods/Pods.xcodeproj/project.xcworkspace/xcshareddata
+Example/Pods/Pods.xcodeproj/xcshareddata
+Example/ThorWalletSDK.xcodeproj/xcshareddata

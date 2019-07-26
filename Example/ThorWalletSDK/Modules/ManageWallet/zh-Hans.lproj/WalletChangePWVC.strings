@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Current Password"; ObjectID = "rJr-hN-k47"; */
+"rJr-hN-k47.placeholder" = "当前密码";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "1eI-eK-vOo"; */
+"1eI-eK-vOo.placeholder" = "新密码";
+
+/* Class = "UITextField"; placeholder = "Repeat Password"; ObjectID = "d6k-bR-PPo"; */
+"d6k-bR-PPo.placeholder" = "重置密码";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "Q3M-FF-6R6"; */
+"Q3M-FF-6R6.normalTitle" = "确认";

@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ThorWalletSDK_Example' do
+  
+  pod 'ThorWalletSDK', :path => '../'
+  
+  pod 'MBProgressHUD', '1.1.0'
+  
+  target 'ThorWalletSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+  
+end

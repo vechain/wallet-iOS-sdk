@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (1.1.0)
+  - SocketRocket (0.4.2)
+  - ThorWalletSDK (1.0.0):
+    - AFNetworking (~> 3.0)
+    - SocketRocket (~> 0.4.2)
+    - ThorWalletSDK/BasicWallet (= 1.0.0)
+    - ThorWalletSDK/DApp (= 1.0.0)
+    - ThorWalletSDK/Tool (= 1.0.0)
+    - YYModel (~> 1.0.4)
+  - ThorWalletSDK/BasicWallet (1.0.0):
+    - AFNetworking (~> 3.0)
+    - SocketRocket (~> 0.4.2)
+    - YYModel (~> 1.0.4)
+  - ThorWalletSDK/DApp (1.0.0):
+    - AFNetworking (~> 3.0)
+    - SocketRocket (~> 0.4.2)
+    - YYModel (~> 1.0.4)
+  - ThorWalletSDK/Tool (1.0.0):
+    - AFNetworking (~> 3.0)
+    - SocketRocket (~> 0.4.2)
+    - YYModel (~> 1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - MBProgressHUD (= 1.1.0)
+  - ThorWalletSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MBProgressHUD
+    - SocketRocket
+    - YYModel
+
+EXTERNAL SOURCES:
+  ThorWalletSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  ThorWalletSDK: 6d1b4213dff537f246cabbd58159a37fc1ffc066
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: e7238f044d75e8c664e120f480414e10bf02de72
+
+COCOAPODS: 1.7.0.rc.2

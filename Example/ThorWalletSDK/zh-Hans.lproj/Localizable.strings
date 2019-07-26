@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  ThorWalletSDK
+
+  Created by VeChain on 2019/5/22.
+  Copyright © 2019 VeChain. All rights reserved.
+*/
+
+
+
+
+"host_select_txt" = "选择网络";
+
+
+"item0" = "正式节点";
+"item1" = "测试节点";
+"item2" = "添加自定义节点";
+
+// 新增
+"version" = "用例版本：(%@)";
+"input_empty" = "输入不能为空";
+"mnemonic_not_available" = "无效的助记词";
+"wait" = "进行中...";
+"Check_right" = "检查输入是否正确";
+"modify_password_new_error" = "新密码错误";
+"modify_password_success" = "修改成功!";
+"modify_password_fail" = "修改失败！";

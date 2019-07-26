@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Confirm import"; ObjectID = "Dtl-bx-Z1a"; */
+"Dtl-bx-Z1a.normalTitle" = "确认导入";
+
+/* Class = "UITextField"; placeholder = "Please enter your password"; ObjectID = "VEy-3F-z5H"; */
+"VEy-3F-z5H.placeholder" = "请输入密码";
+
+/* Class = "UILabel"; text = "Mnemonic Phrases :"; ObjectID = "xm8-LJ-EwN"; */
+"xm8-LJ-EwN.text" = "助记词 :";

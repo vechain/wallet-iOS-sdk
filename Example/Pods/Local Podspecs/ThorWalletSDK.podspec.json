@@ -1,0 +1,55 @@
+{
+  "name": "ThorWalletSDK",
+  "version": "1.0.0",
+  "summary": "Vechain wallet SDK provides a series of functional interface can help the iOS developers, for example: quickly create the wallet, the private key signature, call the vechain block interface, put data in the vechain block, and support dapp development environment.",
+  "description": "Vechain wallet SDK provides a series of functional interface can help the iOS developers, for example: quickly create the wallet, the private key signature, call the vechain block interface, put data in the vechain block, and support dapp development environment.",
+  "homepage": "https://vit.digonchain.com/vechain-mobile-apps/ios-wallet-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VeChain": "support@vechain.com"
+  },
+  "source": {
+    "git": "https://vit.digonchain.com/vechain-mobile-apps/ios-wallet-sdk.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "ThorWalletSDK": [
+      "ThorWalletSDK/Assets/*.png"
+    ]
+  },
+  "resources": "ThorWalletSDK/Assets/ThorWalletSDKBundle.bundle",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "SocketRocket": [
+      "~> 0.4.2"
+    ],
+    "YYModel": [
+      "~>  1.0.4"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "DApp",
+      "source_files": "ThorWalletSDK/Classes/DApp/**/*.{h,m}"
+    },
+    {
+      "name": "BasicWallet",
+      "source_files": [
+        "ThorWalletSDK/Classes/BasicWallet/*.{h,m}",
+        "ThorWalletSDK/Classes/BasicWallet/**/*.{h,m}"
+      ]
+    },
+    {
+      "name": "Tool",
+      "source_files": "ThorWalletSDK/Classes/Lib/**/*.{h,m,c,table}"
+    }
+  ]
+}

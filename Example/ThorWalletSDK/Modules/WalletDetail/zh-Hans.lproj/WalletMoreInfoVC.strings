@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Change Wallet Password"; ObjectID = "4DF-Hm-QgY"; */
+"4DF-Hm-QgY.text" = "修改钱包密码";
+
+/* Class = "UILabel"; text = "Export Keystore"; ObjectID = "7OK-ky-4NQ"; */
+"7OK-ky-4NQ.text" = "导出Keystore";
+
+/* Class = "UIButton"; normalTitle = "Delete Wallet"; ObjectID = "TAz-Mh-rY0"; */
+"TAz-Mh-rY0.normalTitle" = "删除钱包";
+
+/* Class = "UILabel"; text = "0x"; ObjectID = "y0I-uy-fvD"; */
+"y0I-uy-fvD.text" = "0x";
