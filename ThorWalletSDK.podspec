@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ThorWalletSDK'
   s.version          = '1.0.0'
-  s.summary          = 'Vechain wallet SDK provides a series of functional interface can help the iOS developers, for example: quickly create the wallet, the private key signature, call the vechain block interface, put data in the vechain block, and support dapp development environment.'
+  s.summary          = 'Vechain wallet SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Vechain wallet SDK provides a series of functional interface can help the iOS developers, for example: quickly create the wallet, the private key signature, call the vechain block interface, put data in the vechain block, and support dapp development environment.
                        DESC
 
-  s.homepage         = ''
+  s.homepage         = 'https://github.com/vechain/wallet-iOS-sdk'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'VeChain' => 'support@vechain.com' }
@@ -32,22 +32,8 @@ Vechain wallet SDK provides a series of functional interface can help the iOS de
   
   s.resource = 'ThorWalletSDK/Assets/ThorWalletSDKBundle.bundle'
   
-  s.subspec 'DApp' do |ss|
-  ss.source_files = 'ThorWalletSDK/Classes/DApp/**/*.{h,m}'
-  end
-  
-  
-   s.subspec 'BasicWallet' do |ss|
-       ss.source_files = 'ThorWalletSDK/Classes/BasicWallet/*.{h,m}','ThorWalletSDK/Classes/BasicWallet/**/*.{h,m}'
-      #ss.public_header_files = ''
-   end
-  
-  s.subspec 'Tool' do |ss|
-      ss.source_files = 'ThorWalletSDK/Classes/Lib/**/*.{h,m,c,table}'
-      #ss.public_header_files = ''
-  end
+  s.source_files = 'ThorWalletSDK/Classes/**/*.{h,m,c,table}','ThorWalletSDK/Classes/**/**/*.{h,m,c,table}'
 
-  
   s.dependency 'AFNetworking', '~> 3.0'
     
   s.dependency 'SocketRocket', '~> 0.4.2'
