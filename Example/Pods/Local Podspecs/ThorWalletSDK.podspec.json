@@ -1,9 +1,9 @@
 {
   "name": "ThorWalletSDK",
-  "version": "1.0.0",
-  "summary": "Vechain wallet SDK provides a series of functional interface can help the iOS developers, for example: quickly create the wallet, the private key signature, call the vechain block interface, put data in the vechain block, and support dapp development environment.",
+  "version": "1.0.1",
+  "summary": "Vechain wallet SDK",
   "description": "Vechain wallet SDK provides a series of functional interface can help the iOS developers, for example: quickly create the wallet, the private key signature, call the vechain block interface, put data in the vechain block, and support dapp development environment.",
-  "homepage": "https://vit.digonchain.com/vechain-mobile-apps/ios-wallet-sdk",
+  "homepage": "https://github.com/vechain/wallet-iOS-sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,21 +12,20 @@
     "VeChain": "support@vechain.com"
   },
   "source": {
-    "git": "https://vit.digonchain.com/vechain-mobile-apps/ios-wallet-sdk.git",
-    "tag": "1.0.0"
+    "git": "https://github.com/vechain/wallet-iOS-sdk.git",
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "resource_bundles": {
-    "ThorWalletSDK": [
-      "ThorWalletSDK/Assets/*.png"
-    ]
-  },
   "resources": "ThorWalletSDK/Assets/ThorWalletSDKBundle.bundle",
+  "source_files": [
+    "ThorWalletSDK/Classes/**/*.{h,m,c,table}",
+    "ThorWalletSDK/Classes/**/**/*.{h,m,c,table}"
+  ],
   "dependencies": {
     "AFNetworking": [
-      "~> 3.0"
+      "~> 4.0"
     ],
     "SocketRocket": [
       "~> 0.4.2"
@@ -34,22 +33,5 @@
     "YYModel": [
       "~>  1.0.4"
     ]
-  },
-  "subspecs": [
-    {
-      "name": "DApp",
-      "source_files": "ThorWalletSDK/Classes/DApp/**/*.{h,m}"
-    },
-    {
-      "name": "BasicWallet",
-      "source_files": [
-        "ThorWalletSDK/Classes/BasicWallet/*.{h,m}",
-        "ThorWalletSDK/Classes/BasicWallet/**/*.{h,m}"
-      ]
-    },
-    {
-      "name": "Tool",
-      "source_files": "ThorWalletSDK/Classes/Lib/**/*.{h,m,c,table}"
-    }
-  ]
+  }
 }

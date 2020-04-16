@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ThorWalletSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Vechain wallet SDK'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Vechain wallet SDK provides a series of functional interface can help the iOS de
   
   s.source_files = 'ThorWalletSDK/Classes/**/*.{h,m,c,table}','ThorWalletSDK/Classes/**/**/*.{h,m,c,table}'
 
-  s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'AFNetworking', '~> 4.0'
     
   s.dependency 'SocketRocket', '~> 0.4.2'
   
