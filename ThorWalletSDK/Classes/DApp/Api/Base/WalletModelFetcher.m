@@ -50,7 +50,7 @@
     AFHTTPSessionManager *httpManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:urlString]];
     
     httpManager.requestSerializer.cachePolicy = NSURLRequestReloadIgnoringLocalCacheData;
-    [httpManager GET:urlString parameters:dict progress:^(NSProgress * _Nonnull downloadProgress) {
+    [httpManager GET:urlString parameters:dict headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
         
     }  success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
@@ -75,8 +75,7 @@
     httpManager.requestSerializer.cachePolicy = NSURLRequestReloadIgnoringLocalCacheData;
 
     [WalletModelFetcher setHeaderInfo:httpManager];
-    
-    [httpManager POST:urlString parameters:dict progress:^(NSProgress * _Nonnull downloadProgress) {
+    [httpManager POST:urlString parameters:dict headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         

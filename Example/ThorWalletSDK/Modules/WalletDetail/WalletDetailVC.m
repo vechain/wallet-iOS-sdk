@@ -196,6 +196,7 @@
     AFHTTPSessionManager *httpManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:urlString]];
     [httpManager GET:urlString
           parameters:nil
+             headers:nil
             progress:^(NSProgress * _Nonnull uploadProgress) {
                 
             }
@@ -235,6 +236,7 @@
     
     [httpManager POST:urlString
            parameters:dictParm
+              headers:nil
              progress:^(NSProgress * _Nonnull uploadProgress) {
                  
              }
